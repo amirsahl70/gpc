@@ -1,0 +1,13 @@
+extends layout
+
+block content
+
+   h4 #{message}
+   form(action = "/login" method = "POST")
+       input(name = "id" type = "text" required placeholder = "User ID")
+       input(name = "password" type = "password" required placeholder = "Password")
+       button(type = "Submit") Login
+
+
+  script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+  script(src="javascripts/script.js")

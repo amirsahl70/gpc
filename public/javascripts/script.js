@@ -17,6 +17,10 @@ $(function(){
 	
 	})
 
+	$(".btn").click(function(){
+		
+	})
+
 	// $.get('/test',appendToList)
 
 	var appendToList = function(data){
